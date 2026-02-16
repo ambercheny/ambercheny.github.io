@@ -2,7 +2,7 @@ import { MessageCircle, Linkedin, Github, BookOpen, GraduationCap } from "lucide
 
 export default function CallToAction() {
   return (
-    <section className="py-5 bg-primary-500 via-primary-600 to-primary-500 text-center">
+    <section className="py-5 bg-primary-500 text-center">
       {/* 1. Added the missing container div for centering */}
       <div className="max-w-4xl mx-auto px-6">
         
