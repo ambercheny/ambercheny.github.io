@@ -28,7 +28,7 @@ export default function Hero() {
 
             <div className="flex justify-center items-center mb-4">
               <a
-                href="mailto:end1859612@gmail.com"
+                href="mailto:ychen124@uw.edu"
                 className="inline-flex items-center gap-3 bg-white text-primary-500 px-8 py-2 rounded-full font-semibold hover:bg-primary-50 transition-all shadow-xl hover:shadow-2xl hover:scale-105"
               >
                 <Mail className="!w-5 !h-5" />

@@ -12,7 +12,7 @@ export default function CallToAction() {
         <div className="flex flex-col gap-10 justify-center items-center">
 
           <a
-            href="mailto:end1859612@gmail.com"
+            href="mailto:ychen124@uw.edu"
             className="inline-flex items-center gap-3 bg-white text-primary-600 px-10 py-4 rounded-full font-bold hover:bg-primary-50 transition-all shadow-xl hover:scale-105"
           >
             <MessageCircle className="w-5 h-5" />

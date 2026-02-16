@@ -62,6 +62,11 @@ export default function AboutMe() {
                 <span className="text-xs font-medium">Medium</span>
               </a>
             </div>
+
+            {/* Email */}
+            <p className="text-sm text-primary-600 text-center md:text-left mt-3">
+              Email: <a href="mailto:ychen124@uw.edu" className="hover:underline">ychen124@uw.edu</a>
+            </p>
           </div>
 
           {/* Right - About Me Content */}
