@@ -13,13 +13,13 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Personal Website | Researcher & Innovator",
-  description: "A researcher driven by the challenge of scaling healthcare accessibility. Building data solutions at the intersection of pioneering innovation and deep human empathy.",
-  keywords: ["researcher", "healthcare", "data science", "biomedicine", "innovation"],
-  authors: [{ name: "Your Name" }],
+  title: "Ya-Lin Chen (Amber)",
+  description: "Pharmacist and PhD candidate at University of Washington, bridging AI and healthcare. Developing deep learning models for clinical applications and advancing usable healthcare innovation.",
+  keywords: ["biomedical informatics", "healthcare AI", "clinical informatics", "machine learning", "pharmacist", "PhD candidate"],
+  authors: [{ name: "Ya-Lin Chen" }],
   openGraph: {
-    title: "Personal Website | Researcher & Innovator",
-    description: "Building data solutions at the intersection of innovation and empathy",
+    title: "Ya-Lin Chen (Amber)",
+    description: "Pharmacist & Biomedical Informatics PhD Candidate at University of Washington. Bridging AI and healthcare to build usable clinical innovations.",
     type: "website",
   },
 };
