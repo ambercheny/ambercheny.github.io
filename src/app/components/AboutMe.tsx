@@ -157,7 +157,7 @@ export default function AboutMe() {
                   href="/cv.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group inline-flex items-center gap-2 bg-white text-primary-500 px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-all shadow-md hover:shadow-lg hover:scale-105"
+                  className="group inline-flex items-center gap-2 bg-white text-primary-500 px-6 py-3 rounded-lg font-semibold hover:bg-#F2F2F2 transition-all shadow-md hover:shadow-lg hover:scale-105"
                 >
                   <Download className="w-5 h-5 group-hover:text-gray-400 transition-colors" />
                   Download CV
