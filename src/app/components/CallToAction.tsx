@@ -37,7 +37,7 @@ export default function CallToAction() {
             </div>
 
             {/* MapMyVisitors Widget - Medium size */}
-            <div id="mapmyvisitors-container" className="w-28 h-18 flex items-center justify-center">
+            <div id="mapmyvisitors-container" className="w-32 h-24 flex items-center justify-center">
               <a href="https://mapmyvisitors.com/web/1c2l5" title="Visit tracker">
                 <img src="https://mapmyvisitors.com/map.png?d=7ArMGnT4Sb1kqP6ciRYt_K3vO2mwp_7y1va6q2VBv-I&cl=ffffff" alt="Visitor map" className="w-full h-full object-contain" />
               </a>
