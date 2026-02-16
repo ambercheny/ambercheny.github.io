@@ -19,10 +19,10 @@ export default function CallToAction() {
             Send me an email
           </a>
 
-          {/* Icons and Map Layout */}
-          <div className="flex flex-col md:flex-row items-center gap-8 w-full max-w-4xl">
-            {/* Left: Social Icons and Location */}
-            <div className="flex flex-col gap-6 flex-1">
+          {/* Icons and Map Layout - Centered */}
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 w-full">
+            {/* Social Icons and Location */}
+            <div className="flex flex-col gap-6">
               {/* Social Media Links */}
               <div className="flex flex-wrap gap-8 md:gap-12 justify-center items-center">
                 <SocialLink href="https://github.com/ambercheny" icon={<Github />} label="GitHub" />
@@ -36,8 +36,8 @@ export default function CallToAction() {
               </p>
             </div>
 
-            {/* Right: MapMyVisitors Widget */}
-            <div id="mapmyvisitors-container" className="w-24 h-16 flex items-center justify-center">
+            {/* MapMyVisitors Widget - Medium size */}
+            <div id="mapmyvisitors-container" className="w-28 h-18 flex items-center justify-center">
               <a href="https://mapmyvisitors.com/web/1c2l5" title="Visit tracker">
                 <img src="https://mapmyvisitors.com/map.png?d=7ArMGnT4Sb1kqP6ciRYt_K3vO2mwp_7y1va6q2VBv-I&cl=ffffff" alt="Visitor map" className="w-full h-full object-contain" />
               </a>
