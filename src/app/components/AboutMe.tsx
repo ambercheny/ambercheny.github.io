@@ -64,7 +64,7 @@ export default function AboutMe() {
             </div>
 
             {/* Email */}
-            <p className="text-sm text-primary-600 text-center md:text-left mt-3">
+            <p className="text-sm text-primary-600 text-center md:text-left mt-1">
               Email: <a href="mailto:ychen124@uw.edu" className="hover:underline">ychen124@uw.edu</a>
             </p>
           </div>
