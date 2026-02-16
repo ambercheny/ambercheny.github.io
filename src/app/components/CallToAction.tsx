@@ -20,7 +20,7 @@ export default function CallToAction() {
           </a>
 
           {/* Icons and Map Layout - Centered */}
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 w-full">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-8 w-full">
             {/* Social Icons and Location */}
             <div className="flex flex-col gap-6">
               {/* Social Media Links */}
