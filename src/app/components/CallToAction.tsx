@@ -1,5 +1,4 @@
 import { MessageCircle, Linkedin, Github, BookOpen, GraduationCap } from "lucide-react";
-import Script from "next/script";
 
 export default function CallToAction() {
   return (
@@ -38,12 +37,10 @@ export default function CallToAction() {
             </div>
 
             {/* Right: MapMyVisitors Widget */}
-            <div id="mapmyvisitors-container" className="w-5 h-5 flex items-center justify-center">
-              <Script
-                id="mapmyvisitors"
-                src="//mapmyvisitors.com/map.js?d=7ArMGnT4Sb1kqP6ciRYt_K3vO2mwp_7y1va6q2VBv-I&cl=ffffff&w=a"
-                strategy="lazyOnload"
-              />
+            <div id="mapmyvisitors-container" className="w-24 h-16 flex items-center justify-center">
+              <a href="https://mapmyvisitors.com/web/1c2l5" title="Visit tracker">
+                <img src="https://mapmyvisitors.com/map.png?d=7ArMGnT4Sb1kqP6ciRYt_K3vO2mwp_7y1va6q2VBv-I&cl=ffffff" alt="Visitor map" className="w-full h-full object-contain" />
+              </a>
             </div>
           </div>
         </div>
