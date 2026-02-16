@@ -1,17 +1,17 @@
 import { MessageCircle, Linkedin, Github, BookOpen, GraduationCap } from "lucide-react";
+import Script from "next/script";
 
 export default function CallToAction() {
   return (
     <section className="py-5 bg-[##D4EBFF] text-center">
-      {/* 1. Added the missing container div for centering */}
       <div className="max-w-4xl mx-auto px-6">
-        
+
         <p className="text-primary-600 text-xl md:text-2xl mb-4 leading-relaxed max-w-2xl mx-auto font-medium">
           I am open to discussing innovative ideas in the field of AI x healthcare. Let's connect!
         </p>
 
         <div className="flex flex-col gap-10 justify-center items-center">
-          
+
           <a
             href="mailto:end1859612@gmail.com"
             className="inline-flex items-center gap-3 bg-white text-primary-600 px-10 py-4 rounded-full font-bold hover:bg-primary-50 transition-all shadow-xl hover:scale-105"
@@ -20,7 +20,7 @@ export default function CallToAction() {
             Send me an email
           </a>
 
-          {/* 2. Social Media Links - Increased gap for better spacing on mobile */}
+          {/* Social Media Links */}
           <div className="flex flex-wrap gap-8 md:gap-12 justify-center items-center">
             <SocialLink href="https://github.com/ambercheny" icon={<Github />} label="GitHub" />
             <SocialLink href="https://www.linkedin.com/in/yalinchen-amber/" icon={<Linkedin />} label="LinkedIn" />
@@ -29,11 +29,22 @@ export default function CallToAction() {
           </div>
         </div>
 
-        {/* 3. Refined Bottom Info - Using text-white/70 for better hierarchy */}
+        {/* Bottom Info with Map */}
         <div className="mt-1 pt-8 border-t border-white/20">
-          <p className="text-primary-600/80 font-medium">
-            📍 Based in Seattle, WA • Available for collaborations
-          </p>
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+            <p className="text-primary-600/80 font-medium">
+              📍 Based in Seattle, WA • Available for collaborations
+            </p>
+
+            {/* MapMyVisitors Widget */}
+            <div id="mapmyvisitors-container">
+              <Script
+                id="mapmyvisitors"
+                src="//mapmyvisitors.com/map.js?d=7ArMGnT4Sb1kqP6ciRYt_K3vO2mwp_7y1va6q2VBv-I&cl=ffffff&w=a"
+                strategy="lazyOnload"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
