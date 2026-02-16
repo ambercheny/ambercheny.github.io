@@ -10,7 +10,7 @@ export default function AboutMe() {
           <div className="flex flex-col items-center md:items-start gap-6">
             <div className="relative w-48 h-48 md:w-52 md:h-52 rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/headshot.jpg"
+                src="public/headshot.jpg"
                 alt="Professional headshot"
                 fill
                 className="object-cover"
