@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Coffee, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -26,21 +26,13 @@ export default function Hero() {
               I am open to discussing innovative ideas in the field of AI x healthcare. Let's connect!
             </p>
 
-            <div className="flex flex-col sm:flex-row mb-4 gap-4 justify-center items-center">
+            <div className="flex justify-center items-center mb-4">
               <a
                 href="mailto:end1859612@gmail.com"
                 className="inline-flex items-center gap-3 bg-white text-primary-500 px-8 py-2 rounded-full font-semibold hover:bg-primary-50 transition-all shadow-xl hover:shadow-2xl hover:scale-105"
               >
                 <Mail className="!w-5 !h-5" />
                 Send me an email
-              </a>
-
-              <a
-                href="#"
-                className="inline-flex items-center gap-3 bg-primary-400 text-white px-8 py-2 rounded-full font-semibold hover:bg-primary-300 transition-all shadow-xl hover:shadow-2xl hover:scale-105"
-              >
-                <Coffee className="!w-5 !h-5" />
-                Coffee Chat
               </a>
             </div>
             <p className="text-lg text-primary-200">
